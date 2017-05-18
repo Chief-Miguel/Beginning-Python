@@ -1,0 +1,45 @@
+#A simple calculator! Adding, Subtracting, Multiplacation and Divison
+#This calculator is simple, it doesnt even take decimals yet! 
+#Thank you
+
+print("1 - Add")
+print("2 - Subtract")
+print("3 - Multiply")
+print("4 - Divide")
+menu = input("How can i help you?")
+
+if menu == "1":
+  first = input("What's your first number")
+  second = input("What's your second number")
+  final = float(first) + float(second)
+  print("Your anwser is: ")
+  print(final)
+  print("Thank you")
+  
+elif menu == "2":
+  first = input("What's your starting number?")
+  second = input("What's your second number?")
+  final = float(first) - float(second)
+  print("Your awnser is: ")
+  print(final)
+  print("Thank you")
+  
+elif menu == "3":
+  first = input("What's your first number?")
+  second = input("What's your second number?")
+  final = float(first) * float(second)
+  print("Your awnser is: ")
+  print(final)
+  print("Thank you")
+  
+elif menu == "4":
+  first = input("What's your starting number?")
+  second = input("What's your second number?")
+  final = float(first) / float(second)
+  print("Your awnser is: ")
+  print(final)
+  print("Thank you")
+  
+elif menu != "1" or "2" or "3" or "4":
+  print("That's not an option")
+  print("Try again")
