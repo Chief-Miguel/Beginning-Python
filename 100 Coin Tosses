@@ -1,0 +1,30 @@
+#This is a simple caoin toss! It tosses a coin 100 times and it tells you the heads and tails
+
+# "Import Random" is getting random from a library of different programs
+import random
+
+flips = 0
+heads = 0
+tails = 0
+
+#While statments is a statment that simply says "WHile this is that then do this"
+while flips < 100:
+  
+    if random.randint(1,2) == 1:
+      
+        print("heads")
+        heads += 1
+        
+    else:
+        print("tails")
+        tails += 1
+        
+# Flips adds 1 every timne the program runs so eventually it goes over 100!
+        flips += 1
+
+
+print("you got ", heads," heads, and ", tails," tails!")
+
+print("Thank you!")
+
+#program by Miguel Gonzalez!
